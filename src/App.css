@@ -1,0 +1,464 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.mainTable{
+width:80%;
+margin:100px auto;
+border: 0.5px solid #ddd;
+
+}
+
+tr{
+height: 50px;
+
+}
+
+.replica{
+  position: relative;
+width:600px;
+height: 300px;
+
+margin: 0 auto;
+}
+
+.outer{
+  position: relative;
+  height:400px;
+  z-index: 1;
+
+}
+
+.title{
+  background-color: black;
+height: 18px;
+width:100.5%;
+position: absolute;
+top:140px;
+z-index: 1;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+ 
+}
+
+#cat1  {
+  color: white;
+  position: absolute;
+  left: 0;
+  margin-left: 25px;
+  padding-bottom: 5px;
+
+}
+#cat2  {
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+.base{
+  position: relative;
+  z-index: 1;
+ margin: 4px auto;
+height: 90px;
+width:602px;
+border: 1px solid black;
+background-color: black;
+}
+
+.category1{
+  color: white;
+  position: absolute;
+
+  margin: 5px auto;
+
+  font-size: x-small;
+  font-weight: 500;
+
+}
+
+
+.category2{
+  color: white;
+  position: absolute;
+margin-left: 343px;
+margin-top: 5px;
+
+font-size: x-small;
+font-weight: 500;
+
+}
+
+.base1 {
+  color:white;
+  text-align: left;
+  padding-left:10px;
+  font-size: xx-small;
+  position: absolute;
+  font-weight: 500;
+  top:20px;
+  left:0px;
+  width:250px;
+  height: 60px;
+  background-color: yellowgreen;
+}
+
+.catSpell1 , .catSpell2{
+  font-size: small;
+  font-weight: 700;
+}
+.catSpell2{
+  position: absolute;
+  top:240px;
+  left:115px;
+}
+.base2 {
+  font-weight: 500;
+  color:white;
+  text-align: left;
+  padding-left:10px;
+  font-size: xx-small;
+  position: absolute;
+  top:20px;
+  right:0px;
+  width:250px;
+  height: 60px;
+  background-color: dodgerblue;
+}
+.circle{
+  z-index: 3;
+  background-color: white;
+  border: 4px solid black;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left:25%;
+
+  border-radius: 50%;
+}
+
+#leftPer{
+  position: absolute;
+  left:25px;
+  top:15%
+}
+
+#rightPer{
+  position: absolute;
+  right:35px;
+  top:15%;
+}
+
+#leftPer1{
+  position: absolute;
+  left:25px;
+  top:55%
+}
+
+.sidepanel {
+  font-size: small;
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 55%;
+  left: 20;
+  color: white;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.sidepanel1 {
+  font-size: small;
+  text-align: center;
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 55%;
+  left: 53%;
+  color: white;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel1 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel1 a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel1 .closebtn1 {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+#rightPer1{
+  position: absolute;
+  right:35px;
+  top:55%;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.range {
+    overflow: hidden;
+
+    -webkit-appearance: none;
+    background-color: #9a905d;
+  }
+  .range::-webkit-slider-runnable-track {
+  
+  -webkit-appearance: none;
+  color: black !important;
+
+}
+
+.range::-webkit-slider-thumb {
+
+  -webkit-appearance: none;
+ 
+  cursor: ew-resize;
+  background: black;
+  box-shadow: -100px 0 0 100px yellowgreen;
+}
+
+}
+.rightRange{
+  position: absolute;
+  top:35%;
+  left:100px !important;
+}
+
+.lower{
+  position: absolute;
+  width:598px;
+  height: 150px;
+  background-color: dodgerblue;
+  border: 2px solid black;
+ position: absolute;
+ top:150px; 
+}
+
+.upper{
+  width:598px;
+  height: 150px;
+  background-color: yellowgreen;
+  border: 2px solid black;
+ position: absolute;
+ top:0; 
+}
+
+input[type="range"].range
+{ height: 80px;
+  position: absolute;
+  top:35%;
+  left:0;
+     cursor: pointer;
+     width: 200px !important;
+     -webkit-appearance: none;
+     z-index: 3;
+     width:200px;
+     
+     background-color: dodgerblue;
+     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e6e6e6), to(#d2d2d2));
+     background-image: -webkit-linear-gradient(right, #e6e6e6, #d2d2d2);
+     background-image: -moz-linear-gradient(right, #e6e6e6, #d2d2d2);
+     background-image: -ms-linear-gradient(right, #e6e6e6, #d2d2d2);
+     background-image: -o-linear-gradient(right, #e6e6e6, #d2d2d2);
+}
+
+.vertical-lowest-first
+{
+     -webkit-transform:rotate(90deg);
+     -moz-transform:rotate(90deg);
+     -o-transform:rotate(90deg);
+     -ms-transform:rotate(90deg);
+     transform:rotate(90deg);
+}
+
+
+.slider:hover{
+  background-color: burlywood;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 8px;
+  height: 80px;
+
+  background: #000000;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4c2b9b;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+ 
+
+
+.highlight{
+  background-color: gold;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+.head:hover {background-color: mediumaquamarine !important;
+color: black;}
+.head{
+  color: white;
+    background-color: darkslategrey;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
