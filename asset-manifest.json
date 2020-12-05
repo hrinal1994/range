@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/deloitteTask/static/css/main.ca4ccf86.chunk.css",
+    "main.js": "/deloitteTask/static/js/main.523eaa53.chunk.js",
+    "main.js.map": "/deloitteTask/static/js/main.523eaa53.chunk.js.map",
+    "runtime-main.js": "/deloitteTask/static/js/runtime-main.dc70e82b.js",
+    "runtime-main.js.map": "/deloitteTask/static/js/runtime-main.dc70e82b.js.map",
+    "static/js/2.f1d622d9.chunk.js": "/deloitteTask/static/js/2.f1d622d9.chunk.js",
+    "static/js/2.f1d622d9.chunk.js.map": "/deloitteTask/static/js/2.f1d622d9.chunk.js.map",
+    "index.html": "/deloitteTask/index.html",
+    "static/css/main.ca4ccf86.chunk.css.map": "/deloitteTask/static/css/main.ca4ccf86.chunk.css.map",
+    "static/js/2.f1d622d9.chunk.js.LICENSE.txt": "/deloitteTask/static/js/2.f1d622d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc70e82b.js",
+    "static/js/2.f1d622d9.chunk.js",
+    "static/css/main.ca4ccf86.chunk.css",
+    "static/js/main.523eaa53.chunk.js"
+  ]
+}
